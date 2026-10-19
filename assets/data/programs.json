@@ -1,0 +1,361 @@
+{
+  "version": 1,
+  "programs": [
+    {
+      "code": "LAB-101", "track": "lab", "level": "foundation", "hours": 40, "modes": ["onsite"], "featured": true, "order": 1,
+      "title": { "ar": "أساسيات القياسات المختبرية والمعايرة", "en": "Laboratory Measurement & Calibration Fundamentals" },
+      "summary": { "ar": "تدريب عملي على تشغيل أجهزة القياس ومعايرتها وتوثيق النتائج وفق متطلبات ISO/IEC 17025.", "en": "Hands-on training in operating and calibrating measuring instruments and documenting results to ISO/IEC 17025 requirements." },
+      "audience": { "ar": "فنيو ومحللو المعامل الجدد وخريجو الكليات العلمية", "en": "New lab technicians and analysts, science graduates" },
+      "outcomes": {
+        "ar": ["معايرة الموازين والماصات وأجهزة الحرارة والحجم", "تسجيل البيانات وفق ممارسات التوثيق الجيد", "قراءة شهادات المعايرة وتطبيقها في العمل اليومي"],
+        "en": ["Calibrate balances, pipettes, temperature and volumetric equipment", "Record data using good documentation practice", "Read calibration certificates and apply them in daily work"]
+      }
+    },
+    {
+      "code": "LAB-102", "track": "lab", "level": "advanced", "hours": 60, "modes": ["onsite"], "featured": false, "order": 2,
+      "title": { "ar": "التحليل الكيميائي الآلي", "en": "Instrumental Chemical Analysis" },
+      "summary": { "ar": "تشغيل أجهزة HPLC وGC وUV-Vis وAAS وتفسير نتائجها في التحليل الكمي والنوعي.", "en": "Operate HPLC, GC, UV-Vis and AAS instruments and interpret results for quantitative and qualitative analysis." },
+      "audience": { "ar": "كيميائيو مراقبة الجودة والمعامل التحليلية", "en": "QC chemists and analytical lab staff" },
+      "outcomes": {
+        "ar": ["تجهيز العينات واختيار طريقة التحليل المناسبة", "إعداد منحنيات المعايرة وحساب التركيزات", "تشخيص أعطال الأجهزة الشائعة وحلها"],
+        "en": ["Prepare samples and choose the right analytical method", "Build calibration curves and calculate concentrations", "Troubleshoot common instrument faults"]
+      }
+    },
+    {
+      "code": "LAB-103", "track": "lab", "level": "advanced", "hours": 50, "modes": ["onsite"], "featured": false, "order": 3,
+      "title": { "ar": "الاختبارات الميكروبيولوجية للغذاء والمياه", "en": "Microbiological Testing of Food & Water" },
+      "summary": { "ar": "زراعة الكائنات الدقيقة وعزلها وتعريفها، واختبارات التلوث وفق الطرق القياسية المعتمدة.", "en": "Culture, isolate and identify microorganisms and run contamination tests using recognized standard methods." },
+      "audience": { "ar": "العاملون في معامل الأغذية والمياه والدواء", "en": "Food, water and pharmaceutical lab staff" },
+      "outcomes": {
+        "ar": ["تطبيق التقنيات المعقمة وإعداد البيئات", "إجراء العد الكلي واختبارات الكوليفورم والممرضات", "ضبط جودة المعمل الميكروبيولوجي"],
+        "en": ["Apply aseptic technique and prepare media", "Run total counts, coliform and pathogen tests", "Run quality control in a microbiology lab"]
+      }
+    },
+    {
+      "code": "LAB-201", "track": "lab", "level": "intermediate", "hours": 32, "modes": ["blended"], "featured": false, "order": 4,
+      "title": { "ar": "تطبيق المواصفة ISO/IEC 17025:2017 والتدقيق الداخلي", "en": "Implementing ISO/IEC 17025:2017 & Internal Audit" },
+      "summary": { "ar": "بناء نظام إدارة المعمل خطوة بخطوة والتحضير لزيارة جهة الاعتماد.", "en": "Build a laboratory management system step by step and prepare for the accreditation visit." },
+      "audience": { "ar": "مديرو المعامل ومسؤولو الجودة", "en": "Lab managers and quality officers" },
+      "outcomes": {
+        "ar": ["تفسير بنود المواصفة وربطها بإجراءات المعمل", "كتابة دليل الجودة والإجراءات الفنية", "تخطيط وتنفيذ تدقيق داخلي وكتابة تقرير عدم المطابقة"],
+        "en": ["Interpret each clause and map it to lab procedures", "Write the quality manual and technical procedures", "Plan and run an internal audit and report nonconformities"]
+      }
+    },
+    {
+      "code": "LAB-202", "track": "lab", "level": "expert", "hours": 30, "modes": ["blended"], "featured": false, "order": 5,
+      "title": { "ar": "حساب عدم اليقين والتحقق من صلاحية الطرق", "en": "Measurement Uncertainty & Method Validation" },
+      "summary": { "ar": "تقدير ميزانية عدم اليقين وتصميم دراسات التحقق للدقة والإحكام وحدود الكشف.", "en": "Build uncertainty budgets and design validation studies for accuracy, precision and detection limits." },
+      "audience": { "ar": "المحللون الخبراء ومسؤولو الجودة الفنية", "en": "Senior analysts and technical quality managers" },
+      "outcomes": {
+        "ar": ["حساب عدم اليقين المركب والموسع", "تصميم خطة تحقق كاملة لطريقة تحليل", "استخدام الإحصاء التطبيقي في ضبط الجودة"],
+        "en": ["Calculate combined and expanded uncertainty", "Design a full validation plan for a method", "Use applied statistics in quality control"]
+      }
+    },
+
+    {
+      "code": "BIO-101", "track": "tech", "level": "intermediate", "hours": 60, "modes": ["onsite"], "featured": true, "order": 1,
+      "title": { "ar": "التكنولوجيا الحيوية التطبيقية", "en": "Applied Biotechnology" },
+      "summary": { "ar": "تدريب معملي على استخلاص الحمض النووي وتقنية PCR والفصل الكهربائي والاستنساخ.", "en": "Bench training in DNA extraction, PCR, gel electrophoresis and cloning." },
+      "audience": { "ar": "خريجو العلوم والزراعة والصيدلة", "en": "Science, agriculture and pharmacy graduates" },
+      "outcomes": {
+        "ar": ["استخلاص الحمض النووي وقياس نقاوته", "تصميم وتشغيل تفاعل PCR وتحليل نواتجه", "تطبيق قواعد السلامة الحيوية في المعمل"],
+        "en": ["Extract DNA and measure its purity", "Design and run a PCR and analyze the products", "Apply biosafety rules at the bench"]
+      }
+    },
+    {
+      "code": "BIO-201", "track": "tech", "level": "advanced", "hours": 48, "modes": ["onsite"], "featured": false, "order": 2,
+      "title": { "ar": "التشخيص الجزيئي: qPCR ومبادئ التتابع الجيني", "en": "Molecular Diagnostics: qPCR & Sequencing Basics" },
+      "summary": { "ar": "تشغيل تفاعلات qPCR وتفسير منحنيات التضخيم ومدخل عملي لقراءة بيانات التتابع.", "en": "Run qPCR assays, interpret amplification curves and get a practical introduction to sequencing data." },
+      "audience": { "ar": "العاملون في معامل التحاليل والأبحاث", "en": "Diagnostic and research lab staff" },
+      "outcomes": {
+        "ar": ["إعداد تفاعل qPCR بالضوابط الصحيحة", "حساب الكميات النسبية والمطلقة", "قراءة ملفات التتابع وتقييم جودتها"],
+        "en": ["Set up a qPCR run with proper controls", "Calculate relative and absolute quantities", "Read sequencing files and assess their quality"]
+      }
+    },
+    {
+      "code": "NANO-101", "track": "tech", "level": "intermediate", "hours": 50, "modes": ["blended"], "featured": false, "order": 3,
+      "title": { "ar": "النانو تكنولوجي: المواد وطرق التوصيف", "en": "Nanotechnology: Materials & Characterization" },
+      "summary": { "ar": "خصائص المواد النانوية وطرق تحضيرها، وقراءة نتائج XRD وSEM وTEM.", "en": "Properties and synthesis of nanomaterials, and reading XRD, SEM and TEM results." },
+      "audience": { "ar": "الباحثون والمهندسون وخريجو العلوم", "en": "Researchers, engineers and science graduates" },
+      "outcomes": {
+        "ar": ["اختيار طريقة التحضير المناسبة للتطبيق", "تفسير صور المجهر الإلكتروني وأنماط حيود الأشعة", "تقييم تطبيقات النانو في الصناعة"],
+        "en": ["Choose a synthesis route for the application", "Interpret electron micrographs and diffraction patterns", "Evaluate industrial nano applications"]
+      }
+    },
+    {
+      "code": "TEC-201", "track": "tech", "level": "intermediate", "hours": 48, "modes": ["blended"], "featured": false, "order": 4,
+      "title": { "ar": "تصميم وتركيب أنظمة الطاقة الشمسية", "en": "Solar PV System Design & Installation" },
+      "summary": { "ar": "حساب الأحمال وتصميم المنظومات المتصلة والمستقلة واختيار الألواح والعواكس والبطاريات.", "en": "Load calculation, on-grid and off-grid system design, and sizing panels, inverters and batteries." },
+      "audience": { "ar": "الكهربائيون والمهندسون وأصحاب المشروعات", "en": "Electricians, engineers and business owners" },
+      "outcomes": {
+        "ar": ["حساب احتياج الموقع من الطاقة", "تصميم منظومة كاملة وإعداد مخطط التوصيل", "تطبيق اشتراطات السلامة في التركيب والصيانة"],
+        "en": ["Calculate a site's energy demand", "Design a full system and its wiring diagram", "Apply safety requirements for installation and maintenance"]
+      }
+    },
+    {
+      "code": "TEC-202", "track": "tech", "level": "intermediate", "hours": 30, "modes": ["online"], "featured": false, "order": 5,
+      "title": { "ar": "الذكاء الاصطناعي التطبيقي للمهنيين", "en": "Applied AI for Professionals" },
+      "summary": { "ar": "استخدام أدوات الذكاء الاصطناعي في التحليل والكتابة والأتمتة داخل بيئة العمل بأمان.", "en": "Use AI tools for analysis, writing and automation at work, safely." },
+      "audience": { "ar": "الموظفون والمديرون في مختلف القطاعات", "en": "Staff and managers across sectors" },
+      "outcomes": {
+        "ar": ["كتابة تعليمات فعّالة لأدوات الذكاء الاصطناعي", "أتمتة مهام متكررة في التقارير والجداول", "تقييم المخاطر وحماية بيانات المؤسسة"],
+        "en": ["Write effective prompts for AI tools", "Automate repetitive reporting and spreadsheet tasks", "Assess risks and protect company data"]
+      }
+    },
+
+    {
+      "code": "ENG-101", "track": "eng", "level": "intermediate", "hours": 60, "modes": ["onsite"], "featured": true, "order": 1,
+      "title": { "ar": "هندسة الإنتاج: التصنيع الرشيق والجودة الشاملة", "en": "Production Engineering: Lean Manufacturing & TQM" },
+      "summary": { "ar": "تطبيق أدوات Lean وTQM على خطوط إنتاج حقيقية لخفض الهدر ورفع الإنتاجية.", "en": "Apply Lean and TQM tools to real production lines to cut waste and raise output." },
+      "audience": { "ar": "مهندسو ومشرفو الإنتاج والجودة", "en": "Production and quality engineers and supervisors" },
+      "outcomes": {
+        "ar": ["رسم خريطة تدفق القيمة واكتشاف الهدر", "تطبيق 5S وKaizen وSMED", "قياس مؤشرات الأداء OEE ومتابعتها"],
+        "en": ["Map the value stream and find waste", "Apply 5S, Kaizen and SMED", "Measure and track OEE"]
+      }
+    },
+    {
+      "code": "CIV-101", "track": "eng", "level": "advanced", "hours": 80, "modes": ["onsite"], "featured": false, "order": 2,
+      "title": { "ar": "مهندس الموقع: التنفيذ وإدارة المشروعات الإنشائية", "en": "Site Engineer: Construction Execution & Management" },
+      "summary": { "ar": "قراءة اللوحات وحساب الكميات واستلام الأعمال وإدارة الجدول الزمني في الموقع.", "en": "Reading drawings, quantity take-off, inspecting works and managing the site schedule." },
+      "audience": { "ar": "المهندسون المدنيون حديثو التخرج", "en": "Recently graduated civil engineers" },
+      "outcomes": {
+        "ar": ["حصر الكميات وإعداد المستخلصات", "استلام أعمال الخرسانة والتشطيبات وفق الكود", "إعداد جدول زمني ومتابعته"],
+        "en": ["Take off quantities and prepare interim invoices", "Inspect concrete and finishing works to code", "Build and track a project schedule"]
+      }
+    },
+    {
+      "code": "ENG-201", "track": "eng", "level": "foundation", "hours": 40, "modes": ["blended"], "featured": false, "order": 3,
+      "title": { "ar": "الرسم الهندسي باستخدام AutoCAD", "en": "Technical Drawing with AutoCAD" },
+      "summary": { "ar": "إعداد اللوحات الهندسية ثنائية الأبعاد من الصفر حتى الإخراج والطباعة.", "en": "Produce 2D engineering drawings from scratch through to layout and plotting." },
+      "audience": { "ar": "طلاب وخريجو الهندسة والفنيون", "en": "Engineering students, graduates and technicians" },
+      "outcomes": {
+        "ar": ["استخدام أدوات الرسم والتعديل بكفاءة", "تنظيم الطبقات والأبعاد والكتل", "إخراج لوحة جاهزة للطباعة بمقياس صحيح"],
+        "en": ["Use draw and modify tools efficiently", "Organize layers, dimensions and blocks", "Plot a print-ready sheet at the right scale"]
+      }
+    },
+    {
+      "code": "ENG-202", "track": "eng", "level": "intermediate", "hours": 36, "modes": ["onsite"], "featured": false, "order": 4,
+      "title": { "ar": "إدارة الصيانة الصناعية (TPM)", "en": "Industrial Maintenance Management (TPM)" },
+      "summary": { "ar": "التحول من الصيانة الطارئة إلى الوقائية والتنبؤية وفق منهجية الصيانة الإنتاجية الشاملة.", "en": "Move from breakdown repairs to preventive and predictive maintenance using TPM." },
+      "audience": { "ar": "مهندسو ومشرفو الصيانة", "en": "Maintenance engineers and supervisors" },
+      "outcomes": {
+        "ar": ["إعداد خطة صيانة وقائية وجدولتها", "تحليل الأعطال بأسلوب السبب الجذري", "قياس MTBF وMTTR وتحسينهما"],
+        "en": ["Build and schedule a preventive maintenance plan", "Analyze failures with root cause analysis", "Measure and improve MTBF and MTTR"]
+      }
+    },
+    {
+      "code": "ENG-203", "track": "eng", "level": "advanced", "hours": 60, "modes": ["onsite"], "featured": false, "order": 5,
+      "title": { "ar": "برمجة PLC والتحكم الآلي الصناعي", "en": "PLC Programming & Industrial Automation" },
+      "summary": { "ar": "برمجة المتحكمات المنطقية وربط الحساسات والمشغلات وبناء شاشات تشغيل HMI.", "en": "Program logic controllers, wire sensors and actuators, and build HMI screens." },
+      "audience": { "ar": "مهندسو الكهرباء والميكاترونكس والفنيون", "en": "Electrical and mechatronics engineers, technicians" },
+      "outcomes": {
+        "ar": ["كتابة برامج Ladder للتحكم في خطوط إنتاج", "ربط المداخل والمخارج وتشخيص الأعطال", "تصميم شاشة HMI لمتابعة التشغيل"],
+        "en": ["Write ladder logic for production lines", "Wire I/O and diagnose faults", "Design an HMI screen for operations"]
+      }
+    },
+
+    {
+      "code": "QMS-101", "track": "qhse", "level": "intermediate", "hours": 32, "modes": ["blended"], "featured": true, "order": 1,
+      "title": { "ar": "نظام إدارة الجودة ISO 9001:2015 والتدقيق الداخلي", "en": "ISO 9001:2015 Quality Management & Internal Audit" },
+      "summary": { "ar": "فهم متطلبات المواصفة وتوثيق العمليات وتنفيذ التدقيق الداخلي باحتراف.", "en": "Understand the standard, document processes and run internal audits professionally." },
+      "audience": { "ar": "مسؤولو الجودة ورؤساء الأقسام", "en": "Quality officers and department heads" },
+      "outcomes": {
+        "ar": ["تحليل سياق المؤسسة والمخاطر والفرص", "توثيق العمليات ومؤشرات قياسها", "تنفيذ تدقيق داخلي ومتابعة الإجراءات التصحيحية"],
+        "en": ["Analyze organizational context, risks and opportunities", "Document processes and their measures", "Run an internal audit and follow up corrective actions"]
+      }
+    },
+    {
+      "code": "HSE-101", "track": "qhse", "level": "foundation", "hours": 30, "modes": ["onsite"], "featured": false, "order": 2,
+      "title": { "ar": "أساسيات السلامة والصحة المهنية", "en": "Occupational Health & Safety Fundamentals" },
+      "summary": { "ar": "التعرف على مخاطر بيئة العمل وتقييمها وتطبيق إجراءات الوقاية والطوارئ.", "en": "Identify and assess workplace hazards and apply prevention and emergency procedures." },
+      "audience": { "ar": "جميع العاملين في المصانع والمواقع والمعامل", "en": "Anyone working in plants, sites or labs" },
+      "outcomes": {
+        "ar": ["إعداد تقييم مخاطر لمهمة عمل", "اختيار معدات الوقاية الشخصية المناسبة", "التصرف الصحيح في الحريق والإصابات"],
+        "en": ["Write a risk assessment for a task", "Select the right personal protective equipment", "Respond correctly to fire and injuries"]
+      }
+    },
+    {
+      "code": "HSE-201", "track": "qhse", "level": "intermediate", "hours": 32, "modes": ["blended"], "featured": false, "order": 3,
+      "title": { "ar": "نظام إدارة السلامة ISO 45001", "en": "ISO 45001 OH&S Management Systems" },
+      "summary": { "ar": "بناء نظام إدارة للسلامة والصحة المهنية وربطه بنظام الجودة القائم.", "en": "Build an OH&S management system and integrate it with your existing quality system." },
+      "audience": { "ar": "مسؤولو السلامة ومديرو المواقع", "en": "Safety officers and site managers" },
+      "outcomes": {
+        "ar": ["تحديد المتطلبات القانونية وتقييم الالتزام", "إعداد إجراءات التحقيق في الحوادث", "دمج السلامة مع ISO 9001 في نظام واحد"],
+        "en": ["Identify legal requirements and evaluate compliance", "Set up incident investigation procedures", "Integrate safety with ISO 9001 in one system"]
+      }
+    },
+    {
+      "code": "QMS-201", "track": "qhse", "level": "advanced", "hours": 48, "modes": ["blended"], "featured": false, "order": 4,
+      "title": { "ar": "الحزام الأخضر في سيجما الستة", "en": "Six Sigma Green Belt" },
+      "summary": { "ar": "قيادة مشروعات تحسين بمنهجية DMAIC باستخدام أدوات إحصائية عملية.", "en": "Lead improvement projects with DMAIC using practical statistical tools." },
+      "audience": { "ar": "المهندسون ومسؤولو الجودة وتحسين العمليات", "en": "Engineers, quality and process improvement staff" },
+      "outcomes": {
+        "ar": ["تعريف المشكلة وقياس قدرة العملية", "تحليل الأسباب باختبارات الفروض والانحدار", "تثبيت التحسين بخرائط الضبط"],
+        "en": ["Define the problem and measure process capability", "Analyze causes with hypothesis tests and regression", "Sustain gains with control charts"]
+      }
+    },
+    {
+      "code": "ENV-101", "track": "qhse", "level": "intermediate", "hours": 24, "modes": ["online"], "featured": false, "order": 5,
+      "title": { "ar": "نظام الإدارة البيئية ISO 14001", "en": "ISO 14001 Environmental Management" },
+      "summary": { "ar": "تحديد الجوانب البيئية وتقييم آثارها ووضع أهداف وبرامج لتحسين الأداء البيئي.", "en": "Identify environmental aspects, assess impacts and set objectives to improve performance." },
+      "audience": { "ar": "مسؤولو البيئة والجودة في المنشآت", "en": "Environmental and quality officers" },
+      "outcomes": {
+        "ar": ["إعداد سجل الجوانب والآثار البيئية", "إدارة المخلفات والانبعاثات وفق المتطلبات", "الاستعداد لتدقيق الشهادة"],
+        "en": ["Build an aspects and impacts register", "Manage waste and emissions to requirements", "Prepare for the certification audit"]
+      }
+    },
+
+    {
+      "code": "ADM-101", "track": "mgmt", "level": "foundation", "hours": 40, "modes": ["blended"], "featured": false, "order": 1,
+      "title": { "ar": "أساسيات إدارة الأعمال والتخطيط الاستراتيجي", "en": "Business Administration & Strategic Planning" },
+      "summary": { "ar": "مبادئ الإدارة الحديثة وتحويل رؤية المؤسسة إلى خطة وأهداف قابلة للقياس.", "en": "Modern management principles and turning a vision into a plan with measurable goals." },
+      "audience": { "ar": "رواد الأعمال والمديرون الجدد", "en": "Entrepreneurs and new managers" },
+      "outcomes": {
+        "ar": ["تحليل SWOT وتحديد الأولويات", "صياغة أهداف ذكية ومؤشرات أداء", "إعداد خطة عمل سنوية ومتابعتها"],
+        "en": ["Run a SWOT analysis and set priorities", "Write SMART goals and KPIs", "Build and track an annual business plan"]
+      }
+    },
+    {
+      "code": "FIN-101", "track": "mgmt", "level": "advanced", "hours": 50, "modes": ["blended"], "featured": true, "order": 2,
+      "title": { "ar": "التحليل المالي وإدارة المحافظ الاستثمارية", "en": "Financial Analysis & Portfolio Management" },
+      "summary": { "ar": "تحليل القوائم المالية وتقييم المشروعات وقياس المخاطر وبناء محفظة متوازنة.", "en": "Analyze financial statements, value projects, measure risk and build a balanced portfolio." },
+      "audience": { "ar": "المحاسبون والمحللون الماليون", "en": "Accountants and financial analysts" },
+      "outcomes": {
+        "ar": ["حساب النسب المالية وتفسيرها", "تقييم المشروعات بصافي القيمة الحالية ومعدل العائد", "قياس المخاطر وتوزيع الأصول"],
+        "en": ["Calculate and interpret financial ratios", "Value projects with NPV and IRR", "Measure risk and allocate assets"]
+      }
+    },
+    {
+      "code": "PM-201", "track": "mgmt", "level": "advanced", "hours": 35, "modes": ["online"], "featured": false, "order": 3,
+      "title": { "ar": "إدارة المشروعات الاحترافية والتحضير لاختبار PMP", "en": "Professional Project Management & PMP Exam Prep" },
+      "summary": { "ar": "إدارة النطاق والوقت والتكلفة والمخاطر بالأساليب التنبؤية والرشيقة مع تدريب على أسئلة الاختبار.", "en": "Manage scope, time, cost and risk with predictive and agile approaches, plus exam-style practice." },
+      "audience": { "ar": "مديرو ومنسقو المشروعات", "en": "Project managers and coordinators" },
+      "outcomes": {
+        "ar": ["إعداد ميثاق المشروع وهيكل تجزئة العمل", "بناء الجدول الزمني والمسار الحرج", "إدارة المخاطر وأصحاب المصلحة"],
+        "en": ["Write a project charter and WBS", "Build the schedule and critical path", "Manage risks and stakeholders"]
+      }
+    },
+    {
+      "code": "HR-101", "track": "mgmt", "level": "intermediate", "hours": 36, "modes": ["blended"], "featured": false, "order": 4,
+      "title": { "ar": "إدارة الموارد البشرية", "en": "Human Resources Management" },
+      "summary": { "ar": "دورة الموظف كاملة من الاستقطاب والتعيين إلى تقييم الأداء والتطوير.", "en": "The full employee lifecycle from recruitment to performance review and development." },
+      "audience": { "ar": "أخصائيو ومسؤولو الموارد البشرية", "en": "HR specialists and officers" },
+      "outcomes": {
+        "ar": ["كتابة الوصف الوظيفي وإدارة المقابلات", "تصميم نظام تقييم أداء عادل", "تحديد الاحتياجات التدريبية وخطط التطوير"],
+        "en": ["Write job descriptions and run interviews", "Design a fair performance review system", "Identify training needs and development plans"]
+      }
+    },
+    {
+      "code": "ADM-201", "track": "mgmt", "level": "intermediate", "hours": 24, "modes": ["onsite"], "featured": false, "order": 5,
+      "title": { "ar": "القيادة وإدارة فرق العمل للمشرفين", "en": "Leadership & Team Management for Supervisors" },
+      "summary": { "ar": "مهارات قيادة الفريق والتفويض وإدارة الخلافات وتحفيز الأداء اليومي.", "en": "Team leadership, delegation, conflict handling and day-to-day motivation." },
+      "audience": { "ar": "المشرفون ورؤساء الفرق", "en": "Supervisors and team leaders" },
+      "outcomes": {
+        "ar": ["التفويض الفعّال ومتابعة النتائج", "تقديم ملاحظات بنّاءة وإدارة الخلافات", "إدارة اجتماعات قصيرة ومثمرة"],
+        "en": ["Delegate effectively and follow up", "Give constructive feedback and handle conflict", "Run short, productive meetings"]
+      }
+    },
+
+    {
+      "code": "IT-101", "track": "it", "level": "intermediate", "hours": 120, "modes": ["blended"], "featured": true, "order": 1,
+      "title": { "ar": "تطوير الويب المتكامل Full Stack", "en": "Full Stack Web Development" },
+      "summary": { "ar": "بناء تطبيقات ويب كاملة باستخدام HTML وCSS وJavaScript وNode.js وقواعد بيانات MongoDB.", "en": "Build complete web apps with HTML, CSS, JavaScript, Node.js and MongoDB." },
+      "audience": { "ar": "المبتدئون الجادون والراغبون في تغيير مسارهم المهني", "en": "Committed beginners and career changers" },
+      "outcomes": {
+        "ar": ["بناء واجهات متجاوبة تعمل على كل الأجهزة", "تصميم واجهة برمجية REST وتأمينها", "نشر مشروع حقيقي على الإنترنت"],
+        "en": ["Build responsive interfaces for every device", "Design and secure a REST API", "Deploy a real project online"]
+      }
+    },
+    {
+      "code": "CYB-301", "track": "it", "level": "advanced", "hours": 90, "modes": ["blended"], "featured": true, "order": 2,
+      "title": { "ar": "الأمن السيبراني واختبار الاختراق", "en": "Cybersecurity & Penetration Testing" },
+      "summary": { "ar": "حماية الشبكات والأنظمة واختبار الاختراق الأخلاقي في بيئة معملية، بمحتوى متوافق مع أهداف CompTIA Security+.", "en": "Network and system defense and ethical penetration testing in a lab, aligned with CompTIA Security+ objectives." },
+      "audience": { "ar": "مسؤولو الشبكات والأنظمة ومطورو البرمجيات", "en": "Network and system admins, software developers" },
+      "outcomes": {
+        "ar": ["تحليل الثغرات وترتيب أولوياتها", "تنفيذ اختبار اختراق منظم وكتابة تقريره", "تقوية الخوادم والشبكات ضد الهجمات الشائعة"],
+        "en": ["Analyze and prioritize vulnerabilities", "Run a structured pentest and write the report", "Harden servers and networks against common attacks"]
+      }
+    },
+    {
+      "code": "DATA-101", "track": "it", "level": "foundation", "hours": 30, "modes": ["online"], "featured": false, "order": 3,
+      "title": { "ar": "تحليل البيانات باستخدام Excel وPower BI", "en": "Data Analysis with Excel & Power BI" },
+      "summary": { "ar": "تنظيف البيانات وتحليلها وبناء لوحات متابعة تفاعلية لاتخاذ القرار.", "en": "Clean and analyze data and build interactive dashboards for decision-making." },
+      "audience": { "ar": "الموظفون الإداريون والمحاسبون ومحللو المبيعات", "en": "Administrative staff, accountants and sales analysts" },
+      "outcomes": {
+        "ar": ["استخدام الجداول المحورية والدوال المتقدمة", "تجهيز البيانات بأداة Power Query", "بناء لوحة متابعة تفاعلية ونشرها"],
+        "en": ["Use pivot tables and advanced functions", "Shape data with Power Query", "Build and publish an interactive dashboard"]
+      }
+    },
+    {
+      "code": "DATA-201", "track": "it", "level": "intermediate", "hours": 48, "modes": ["online"], "featured": false, "order": 4,
+      "title": { "ar": "بايثون لعلوم البيانات", "en": "Python for Data Science" },
+      "summary": { "ar": "تحليل البيانات وتصويرها ومدخل إلى نماذج تعلم الآلة باستخدام بايثون.", "en": "Data analysis, visualization and an introduction to machine learning models in Python." },
+      "audience": { "ar": "المحللون والباحثون والمهندسون", "en": "Analysts, researchers and engineers" },
+      "outcomes": {
+        "ar": ["التعامل مع البيانات باستخدام pandas", "إنشاء رسوم بيانية واضحة للتقارير", "تدريب نموذج تنبؤ بسيط وتقييمه"],
+        "en": ["Work with data using pandas", "Create clear charts for reports", "Train and evaluate a simple predictive model"]
+      }
+    },
+    {
+      "code": "IT-201", "track": "it", "level": "intermediate", "hours": 60, "modes": ["onsite"], "featured": false, "order": 5,
+      "title": { "ar": "أساسيات الشبكات (مسار CCNA)", "en": "Networking Fundamentals (CCNA Track)" },
+      "summary": { "ar": "تصميم وتهيئة الشبكات المحلية والموجهات والمحولات على أجهزة ومحاكيات.", "en": "Design and configure LANs, routers and switches on real gear and simulators." },
+      "audience": { "ar": "فنيو الدعم التقني وخريجو الحاسبات", "en": "IT support technicians and computing graduates" },
+      "outcomes": {
+        "ar": ["تقسيم العناوين وتصميم الشبكات الفرعية", "تهيئة VLAN والتوجيه بين الشبكات", "تشخيص أعطال الاتصال بطريقة منهجية"],
+        "en": ["Plan addressing and subnets", "Configure VLANs and inter-VLAN routing", "Troubleshoot connectivity methodically"]
+      }
+    },
+
+    {
+      "code": "LNG-A1", "track": "lang", "level": "foundation", "hours": 60, "modes": ["blended"], "featured": false, "order": 1,
+      "title": { "ar": "اللغة الإنجليزية للمبتدئين", "en": "English for Beginners" },
+      "summary": { "ar": "بناء أساس قوي في القواعد والمفردات والمحادثة اليومية بأسلوب تفاعلي.", "en": "Build a solid base in grammar, vocabulary and everyday conversation, interactively." },
+      "audience": { "ar": "من يبدأ تعلم الإنجليزية أو يعيد بناءها", "en": "Starting or rebuilding English learners" },
+      "outcomes": {
+        "ar": ["التعريف بالنفس وإدارة محادثات يومية", "فهم الجمل الأساسية في المواقف الشائعة", "كتابة رسائل قصيرة صحيحة"],
+        "en": ["Introduce yourself and hold everyday conversations", "Understand basic sentences in common situations", "Write short, correct messages"]
+      }
+    },
+    {
+      "code": "LNG-B1", "track": "lang", "level": "intermediate", "hours": 48, "modes": ["online"], "featured": true, "order": 2,
+      "title": { "ar": "الإنجليزية لبيئة العمل", "en": "Business English & Workplace Communication" },
+      "summary": { "ar": "كتابة البريد الإلكتروني المهني وإدارة الاجتماعات والعروض والتفاوض بالإنجليزية.", "en": "Professional email, meetings, presentations and negotiation in English." },
+      "audience": { "ar": "الموظفون في الشركات والمؤسسات الدولية", "en": "Staff in companies and international organizations" },
+      "outcomes": {
+        "ar": ["كتابة رسائل عمل واضحة ومهذبة", "المشاركة بثقة في الاجتماعات", "تقديم عرض قصير والرد على الأسئلة"],
+        "en": ["Write clear, polite business emails", "Take part in meetings with confidence", "Give a short presentation and handle questions"]
+      }
+    },
+    {
+      "code": "LNG-T1", "track": "lang", "level": "advanced", "hours": 40, "modes": ["blended"], "featured": false, "order": 3,
+      "title": { "ar": "التحضير لاختبار IELTS", "en": "IELTS Preparation" },
+      "summary": { "ar": "استراتيجيات المهارات الأربع مع اختبارات تجريبية وتقييم فردي للكتابة والتحدث.", "en": "Strategies for all four skills, mock tests and individual feedback on writing and speaking." },
+      "audience": { "ar": "المتقدمون للدراسة أو العمل أو الهجرة", "en": "Candidates for study, work or migration" },
+      "outcomes": {
+        "ar": ["إدارة الوقت في كل قسم من أقسام الاختبار", "كتابة مقال وتقرير وفق معايير التقييم", "التدرب على اختبار التحدث بأسئلة حقيقية"],
+        "en": ["Manage time in every section", "Write essays and reports to the band descriptors", "Practise the speaking test with real-style questions"]
+      }
+    },
+    {
+      "code": "LNG-C1", "track": "lang", "level": "intermediate", "hours": 36, "modes": ["online"], "featured": false, "order": 4,
+      "title": { "ar": "الإنجليزية الفنية للمهندسين والمعامل", "en": "Technical English for Engineers & Labs" },
+      "summary": { "ar": "قراءة المواصفات والكتالوجات وكتابة التقارير الفنية والإجراءات بالإنجليزية.", "en": "Read standards and catalogues and write technical reports and procedures in English." },
+      "audience": { "ar": "المهندسون والكيميائيون والفنيون", "en": "Engineers, chemists and technicians" },
+      "outcomes": {
+        "ar": ["فهم المصطلحات الفنية في مجال العمل", "كتابة تقرير فني وإجراء عمل قياسي", "وصف الأعطال والنتائج بدقة"],
+        "en": ["Understand the technical terms of your field", "Write a technical report and an SOP", "Describe faults and results precisely"]
+      }
+    },
+    {
+      "code": "COM-101", "track": "lang", "level": "foundation", "hours": 18, "modes": ["onsite"], "featured": false, "order": 5,
+      "title": { "ar": "مهارات العرض والإلقاء", "en": "Presentation & Public Speaking Skills" },
+      "summary": { "ar": "إعداد عرض مقنع وإلقاؤه بثقة مع تدريب عملي مسجل وتقييم فردي.", "en": "Prepare a persuasive talk and deliver it with confidence, with recorded practice and feedback." },
+      "audience": { "ar": "كل من يحتاج إلى العرض أمام جمهور أو عملاء", "en": "Anyone who presents to audiences or clients" },
+      "outcomes": {
+        "ar": ["بناء رسالة واضحة وهيكل منطقي للعرض", "التحكم في الصوت ولغة الجسد", "التعامل مع الأسئلة والمواقف الصعبة"],
+        "en": ["Build a clear message and logical structure", "Control voice and body language", "Handle questions and difficult moments"]
+      }
+    }
+  ]
+}
